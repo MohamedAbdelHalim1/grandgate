@@ -1,0 +1,98 @@
+.rtl {
+    direction: rtl;
+}
+
+/*button-up*/
+
+.button-up {
+    position: fixed;
+    left: -70px;
+    bottom: 4%;
+    cursor: pointer;
+    transition: 0.4s;
+    overflow-y: hidden !important;
+    height: 55px;
+    width: 55px;
+    background-color: #444444;
+    color: white;
+    text-align: center;
+    margin-top: 3px;
+    font-weight: bolder;
+}
+
+.button-up:hover {
+    background-color: #c8545c;
+    color: white;
+}
+
+.button-up p {
+    color: white !important;
+    font-weight: bolder;
+}
+
+.button-up.show {
+    left: 4%;
+}
+
+/**/
+
+body h3,
+h1,
+h2,
+h4,
+h5,
+h6 {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+body p {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+body a {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+body ul li {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+body ul li a span {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+body button {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.breadcrumbs {
+    text-align: right;
+    direction: rtl;
+    margin-top: 12px;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.breadcrumbs span {
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:1000px) {
+
+    .breadcrumbs a,
+    .breadcrumbs span {
+        font-size: 9px;
+    }
+
+    .breadcrumbs {
+        margin-top: 11px;
+    }
+
+}
